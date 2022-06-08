@@ -8,7 +8,7 @@ const server = http.createServer(async (req, res) => {
         //response headers
         res.writeHead(200, { "Content-Type": "application/json" });
         //set the response
-        res.write("Hi there, This is a Vanilla Node.js API V1.0");
+        res.write("Hi there, This is a Vanilla Node.js API V2.0");
         //end the response
         res.end();
     }
